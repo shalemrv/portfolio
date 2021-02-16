@@ -12,8 +12,8 @@
 			content="Shalem Raj V | Portfolio"
 		/>
 		<meta
-			property="og:description"
-			content="A small webpage about myself with my skills and projects."
+			name="og:description"
+			content="Portfolio of a Highly motivated, enthusiastic and skilled Full Stack Web Developer and a fast learner looking forward to learning new technologies, gaining expertise | AngularJS | Angular | PHP | MySQL | React"
 		/>
 		<meta
 			property="og:image"
@@ -28,12 +28,16 @@
 			content="https://shalemrv.github.io/portfolio"
 		/>
 
+		<meta
+			name="keywords"
+			content="php, html, css, javascript, portfolio, web developer, angularjs, angular, mysql, react, software engineer"
+		/>
+		<meta name="robots" content="index,follow"/>
+
 
 		<link rel="shortcut icon" href="tree.ico">
 		<link rel="apple-touch-icon" href="tree.ico">
-		<link rel="image_src" href="tree.png"> 
-
-
+		<link rel="image_src" href="tree.png">
 
 		<meta name="twitter:card" content="summary"/>
 		<meta name="twitter:site" content="@v_shall_aim" />
@@ -45,8 +49,7 @@
 		<meta http-equiv="Cache-Control" content="no-cache" />
 
 		<script>
-			// window.location = "https://www.shalemrv.com"
-			var d =  "";
+			window.location = "https://www.shalemrv.com";
 		</script>
 
 		<!--
@@ -71,6 +74,7 @@
 	</head>
 
 	<body>
+		<h1>Shalem Raj V | Web Develepor | Portfolio</h1>
 		<div>
 			<img src="author.jpg" alt="">
 			<span>
@@ -79,13 +83,10 @@
 		</div>
 		<header>
 			<nav>
-				<div class="page-logo">
+				<div>
 					<img src="mylogo.png" alt="Shall Aim">
 				</div>
-				<ul id="nav-items-ul">
-					<li>
-						<a href="#home">HOME</a>
-					</li>
+				<ul>
 					<li>
 						<a href="#about">ABOUT</a>
 					</li>
@@ -104,12 +105,8 @@
 
 		<div>
 
-			<section>
-				<!-- HOME -->
-			</section>
-
 			<!-- ABOUT -->
-			<section>
+			<section id="about">
 				<h3>About</h3>
 				<div>
 					<h4>Skills</h4>
@@ -237,7 +234,7 @@
 			</section>
 
 			<!-- PROJECTS -->
-			<section>
+			<section id="projects">
 				<h3>Projects</h3>
 				<div>
 					<div>
@@ -321,7 +318,7 @@
 			</section>
 
 			<!-- SERVICES -->
-			<section>
+			<section id="services">
 				<div>
 					<h3>Services</h3>				
 					<ul>
@@ -338,7 +335,7 @@
 			</section>
 
 			<!-- CONTACT -->
-			<section>
+			<section id="contact">
 				<h3>Contact</h3>
 				<div>
 					<a target="_blank" rel="noreferrer" href="https://www.instagram.com/we_shall_aim">
